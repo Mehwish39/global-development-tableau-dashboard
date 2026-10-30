@@ -159,5 +159,4 @@ Data based on **Gapminder** public development indicators, accessed through **Pl
 
 ---
 
-**Mehwish Naseeruddin** · Data Analyst
-<!-- Add your links, for example: [LinkedIn](https://www.linkedin.com/in/your-profile) · [Tableau Public](https://public.tableau.com/app/profile/your-profile) -->
+**Mehwish Naseer ud din** · Data Analyst

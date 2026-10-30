@@ -133,19 +133,22 @@ Indicators Covered = COUNTD([indicator_code])
 ```text
 ├── README.md
 ├── tableau/
-│   └── Global_Development_Dashboard.twb    # Tableau workbook (no data embedded)
+│   ├── Global_Development_Dashboard.twbx   # Packaged workbook (opens with data included)
+│   └── Global_Development_Dashboard.twb    # Workbook XML only (for viewing the build)
 ├── images/                                  # Dashboard screenshots
 ├── docs/
 │   ├── Global_Development_Indicators_Report.pdf      # 4-page analysis report
 │   └── Global_Development_Dashboard_Presentation.pdf # 7-slide summary deck
 └── data/
-    └── README.md                            # Data source & schema (data not included)
+    └── README.md                            # Data source & schema
 ```
 
 ## ▶️ How to Open the Workbook
 
-The dataset is **not included** in this repository (see [`data/README.md`](data/README.md)).
-To explore the workbook, open `tableau/Global_Development_Dashboard.twb` in Tableau Desktop or Tableau Public. When Tableau asks for the data source, point it to a CSV with the schema described in `data/README.md`.
+1. Download [`tableau/Global_Development_Dashboard.twbx`](tableau/Global_Development_Dashboard.twbx).
+2. Open it in **Tableau Desktop** or the free **Tableau Public** app.
+
+The data is packaged inside the `.twbx`, so all three dashboards open straight away with no setup.
 
 ## 📚 Data Source
 
